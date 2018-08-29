@@ -232,4 +232,109 @@ h1, h2, h3, h4, h5 {
   }
   .container2 .main-content-services0 .main-content-services1 .digital-design {
 	border: 1px solid black;
+	background-color: lightgray;
+	font-size: 20px;
+	padding: 20 30 10 20;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+  }
+  .container2 .main-content-services0 .main-content-services1 .digital-design button {
+	  border-radius: 5%;
+	  background: white;
+	  padding: 5 20 5 20;
+	  border: 1px solid black;
+  }
+  .container2 .main-content-services0 .main-content-services1 .digital-marketing {
+	border: 1px solid black;
+	background-color: lightgray;
+	font-size: 20px;
+	padding: 20 30 10 20;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+  }
+  .container2 .main-content-services0 .main-content-services1 .digital-marketing button {
+	  border-radius: 5%;
+	  background: white;
+	  padding: 5 20 5 20;
+	  border: 1px solid black;
+  }
+  .container2 .main-content-services0 .main-content-services1 .ios-devlopment {
+	border: 1px solid black;
+	background-color: lightgray;
+	font-size: 20px;
+	padding: 20 30 10 20;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+  }
+  .container2 .main-content-services0 .main-content-services1 .ios-devlopment button {
+	  border-radius: 5%;
+	  background: white;
+	  padding: 5 20 5 20;
+	  border: 1px solid black;
+  }
+  .container2 .main-content-services0 .main-content-services2 .ux-ui {
+	border: 1px solid black;
+	background-color: lightgray;
+	font-size: 20px;
+	padding: 20 30 10 20;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+  }
+  .container2 .main-content-services0 .main-content-services2 .ux-ui button {
+	  border-radius: 5%;
+	  background: white;
+	  padding: 5 20 5 20;
+	  border: 1px solid black;
+  }
+  .container2 .main-content-services0 .main-content-services2 .web-dev {
+	border: 1px solid black;
+	background-color: lightgray;
+	font-size: 20px;
+	padding: 20 30 10 20;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+  }
+  .container2 .main-content-services0 .main-content-services2 .web-dev button {
+	  border-radius: 5%;
+	  background: white;
+	  padding: 5 20 5 20;
+	  border: 1px solid black;
+  }
+  .container2 .main-content-services0 .main-content-services2 .android-dev {
+	border: 1px solid black;
+	background-color: lightgray;
+	font-size: 20px;
+	padding: 20 30 10 20;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+  }
+  .container2 .main-content-services0 .main-content-services2 .android-dev button {
+	  border-radius: 5%;
+	  background: white;
+	  padding: 5 20 5 20;
+	  border: 1px solid black;
+  }
+  .container2 .main-content-services0 {
+	  border-bottom: 3px solid black;
+	  padding-bottom: 25px;
+  }
+  .container2 .footer-services {
+	  display: flex;
+	  margin-top: 40px;
+	  margin-bottom: 30px;
+	  margin-right: 20px;
+  }
+  .container2 .footer-services .footer-services-facts {
+	  padding-right: 60px;
+  }
+  .container2 .copyright {
+	  text-align: center;
+	  margin-bottom: 20px;
+	  margin-top: 100px;
   }
