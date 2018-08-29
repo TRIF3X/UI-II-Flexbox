@@ -59,8 +59,177 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+	letter-spacing: 1px;  
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	width: 880px;
+	/* TB LR */
+	margin: 0 auto;
+  }
+  
+  /* header */
+  
+  .container header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+  }
+  
+  .container header nav {
+	align-self: center;
+  }
+  .container header nav a {
+	  margin-left: 50px;
+	  color: grey;
+	  text-decoration: none;
+  }
+  .container header nav a:hover {
+	text-decoration: underline;
+  }
+  /* cta */
+  .container .cta {
+	  display: flex;
+	  margin-top: 60px;
+	  height: 400px;
+  }
+  
+  .container .cta .cta-text {
+	display: flex;
+	flex-direction: column;
+	font-size: 77px;
+	text-align: center;
+	margin-top: 70px;
+	margin-left: 90px;
+	margin-bottom: 50px;
+  }
+  
+  .container .cta .cta-text button {
+	background: white;
+	font-size: 17px;
+	border: 1px solid black;
+	cursor: pointer;
+	width: 180px;
+	margin-left: 60px;
+	margin-top: 15px;
+  }
+  
+  .container .cta .cta-text button:hover {
+	background: black;
+	color: white;
+  }
+  
+  .container .cta img {
+	margin-left: 90px;
+  }
+  
+  .container .main-content {
+	border-top: 1px solid black;
+	margin-top: 76px;
+	padding-top: 39px;
+  }
+  
+  .container .main-content .top-content {
+	display: flex;
+	padding: 0 10px;
+  }
+  
+  .container .main-content .top-content .text-content {
+	width: 410px;
+	margin-right: 34px;
+  }
+  
+  .container .main-content .top-content .text-content:last-child {
+	margin-right: 0;
+  }
+  
+  .container .main-content .middle-img {
+	margin-top: 45px;
+  }
+  
+  .container .main-content .bottom-content {
+	display: flex;
+	margin-top: 37px;
+	padding: 0 10px;
+  }
+  
+  .container .main-content .bottom-content .text-content {
+	width: 275px;
+	margin-right: 12px;
+  }
+  
+  .container .main-content .bottom-content .text-content:last-child {
+	margin-right: 0;
+  }
+  
+  .container .contact {
+	margin-top: 57px;
+	border-top: 1px solid black;
+	padding: 39px 10px 0;
+  }
+  
+  .container .contact p {
+	margin: 20px 0;
+  }
+  
+  .container footer {
+	margin: 32px 0;
+	text-align: center;
+	font-size: 14px;
+  }
+  .container2 {
+	width: 880px;
+	margin: 0 auto;
+  }
+  .container2 header {
+	display: flex; 
+	flex-direction: row; 
+	margin-top: 20px;
+	margin-bottom: 20px;
+  }
+  
+  .container2 header nav {
+	align-self: center;
+	flex-direction: row;
+	display: flex;
+	width: 700px;
+  }
+  .container2 header nav a {
+	justify-content: space-evenly;
+	color: grey;
+	text-decoration: none;
+	padding-right: 60px;
+  }
+  .container2 header nav a:hover {
+	text-decoration: underline;
+  }
+  .container2 .services-header-img {
+	  margin-bottom: 40px;
+  }
+  .container2 .services1 h1 {
+	  font-size: 24px;
+  }
+  .container2 .services1 {
+	  border-bottom: 1px solid black;
+  }
+  .container2 .services1 div {
+	  margin-bottom: 40px;
+  }
+  .container2 .main-content-services0 {
+	display: flex;
+  }
+  .container2 .main-content-services1 {
+	  /* border: 1px solid red; */
+	  display: flex;
+	  flex-wrap: wrap;
+  }
+  .container2 .main-content-services2 {
+	/* border: 1px solid red; */
+	display: flex;
+	flex-wrap: wrap;
+  }
+  .container2 .main-content-services0 .main-content-services1 .digital-design {
+	border: 1px solid black;
+  }
