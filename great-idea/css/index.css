@@ -340,4 +340,71 @@ h1, h2, h3, h4, h5 {
   }
   .container2 .footer-services .footer-services-facts .list {
 	  padding-left: 20px;
-  }
+	}
+	/* Beggining of product CSS */
+	.container3 {
+		width: 880px;
+		margin: 0 auto;
+		}
+		.container3 header {
+		display: flex; 
+		flex-direction: row; 
+		margin-top: 20px;
+		margin-bottom: 20px;
+		}
+		
+		.container3 header nav {
+		align-self: center;
+		flex-direction: row;
+		display: flex;
+		width: 700px;
+		}
+		.container3 header nav a {
+		justify-content: space-evenly;
+		color: grey;
+		text-decoration: none;
+		padding-right: 60px;
+		}
+		.container3 header nav a:hover {
+		text-decoration: underline;
+		}
+		.container3 .product-cover2 {
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+		}
+		.container3 .intro-products {
+			font-size: 40px;
+			text-align: center;
+			margin-top: 30px;
+		}
+		.container3 .main-products {
+
+			display: flex;
+			margin-top: 30px;
+			border-bottom: 3px solid black;
+		}
+		.container3 .main-products .left-column {
+			border: 1px solid black;
+			flex-wrap: wrap;
+			padding: 20 20;
+			margin-left: 10px;
+			margin-right: 10px;
+			margin-bottom: 30px;
+		}
+		.container3 .main-products .right-column {
+			border: 1px solid black;
+			flex-wrap: wrap;
+			padding: 20 20;
+			margin-left: 10px;
+			margin-right: 10px;
+			margin-bottom: 30px;
+		}
+		.container3 .footer-product {
+			margin-top: 30px;
+			margin-bottom: 100px;
+		}
+		.container3 .copyright {
+			text-align: center;
+			margin-bottom: 40px;
+		}
